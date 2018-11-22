@@ -20,13 +20,7 @@ Now UI Kit is built on top of the much awaited Bootstrap 4. This makes starting 
 **Example Pages**
 We wanted to fully display the power of this kit, so the kit comes packed with examples showing you how to use the components. Inside the product you will find:
 
-## Links:
 
-+ [Live Preview](http://demos.creative-tim.com/now-ui-kit/index.html)
-+ [Profile Page](http://demos.creative-tim.com/now-ui-kit/examples/profile-page.html)
-+ [Login Page](http://demos.creative-tim.com/now-ui-kit/examples/login-page.html)
-+ [Landing Page](http://demos.creative-tim.com/now-ui-kit/examples/landing-page.html)
-+ [Now UI Kit PRO](http://demos.creative-tim.com/now-ui-kit-pro/presentation.html) (from $69)
 
 **Tutorial**
 In order for you to easily be able to use the Now UI kit, we have created a tutorial page. It shows the structure for the files inside the archive and how to import them. It then features every components with a description and example fr how to use it. You can see the details here (link).
@@ -67,29 +61,5 @@ Now Ui Kit
 └── nucleo-icons.html
 ```
 
-## Useful Links
-
-More products from Creative Tim: <http://www.creative-tim.com/bootstrap-themes>
-
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
-
-Freebies: <http://www.creative-tim.com/products>
-
-Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
-
-Social Media:
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
-
-[CHANGELOG]: ./CHANGELOG.md
-[LICENSE]: ./LICENSE
 [version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
