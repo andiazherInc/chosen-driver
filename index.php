@@ -116,11 +116,8 @@
 
       <div class="section" id="carousel">
         <div class="container">
-          <div class="title">
-            <h4>Carousel</h4>
-          </div>
           <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12">
+            <div class="col-lg-12 col-md-12">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -158,43 +155,7 @@
           </div>
         </div>
       </div>
-      
-      <div class="section section-nucleo-icons">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <h2 class="title">Nucleo Icons</h2>
-              <h5 class="description">
-                Now UI Kit PRO comes with 100 custom icons made by our friends from NucleoApp. The official package contains over 2.100 thin icons which are looking great in combination with Now UI Kit PRO Make sure you check all of them and use those that you like the most.
-              </h5>
-              <!-- <div class="nucleo-container">
-							<img src="assets/img/nucleo.svg" alt="">
-						</div> -->
-              <a href="nucleo-icons.html" class="btn btn-primary btn-round btn-lg" target="_blank">View Demo Icons</a>
-              <a href="https://nucleoapp.com/?ref=1712" class="btn btn-primary btn-simple btn-round btn-lg" target="_blank">View All Icons</a>
-            </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="icons-container">
-                <i class="now-ui-icons ui-1_send"></i>
-                <i class="now-ui-icons ui-2_like"></i>
-                <i class="now-ui-icons transportation_air-baloon"></i>
-                <i class="now-ui-icons text_bold"></i>
-                <i class="now-ui-icons tech_headphones"></i>
-                <i class="now-ui-icons emoticons_satisfied"></i>
-                <i class="now-ui-icons shopping_cart-simple"></i>
-                <i class="now-ui-icons objects_spaceship"></i>
-                <i class="now-ui-icons media-2_note-03"></i>
-                <i class="now-ui-icons ui-2_favourite-28"></i>
-                <i class="now-ui-icons design_palette"></i>
-                <i class="now-ui-icons clothes_tie-bow"></i>
-                <i class="now-ui-icons location_pin"></i>
-                <i class="now-ui-icons objects_key-25"></i>
-                <i class="now-ui-icons travel_istanbul"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="section">
         <div class="container text-center">
           <div class="row justify-content-md-center">
@@ -205,88 +166,7 @@
           </div>
         </div>
       </div>
-      <div class="section section-signup" style="background-image: url('assets/img/bg11.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
-        <div class="container">
-          <div class="row">
-            <div class="card card-signup" data-background-color="orange">
-              <form class="form" method="" action="">
-                <div class="card-header text-center">
-                  <h3 class="card-title title-up">Sign Up</h3>
-                  <div class="social-line">
-                    <a href="#pablo" class="btn btn-neutral btn-facebook btn-icon btn-round">
-                      <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-neutral btn-twitter btn-icon btn-lg btn-round">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-neutral btn-google btn-icon btn-round">
-                      <i class="fab fa-google-plus"></i>
-                    </a>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div class="input-group no-border">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="now-ui-icons users_circle-08"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="First Name...">
-                  </div>
-                  <div class="input-group no-border">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="now-ui-icons text_caps-small"></i>
-                      </span>
-                    </div>
-                    <input type="text" placeholder="Last Name..." class="form-control" />
-                  </div>
-                  <div class="input-group no-border">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="now-ui-icons ui-1_email-85"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Email...">
-                  </div>
-                  <!-- If you want to add a checkbox to this form, uncomment this code -->
-                  <!-- <div class="checkbox">
-								<input id="checkboxSignup" type="checkbox">
-									<label for="checkboxSignup">
-									Unchecked
-									</label>
-								</div> -->
-                </div>
-                <div class="card-footer text-center">
-                  <a href="#pablo" class="btn btn-neutral btn-round btn-lg">Get Started</a>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col text-center">
-            <a href="examples/login-page.html" class="btn btn-simple btn-round btn-white btn-lg" target="_blank">View Login Page</a>
-          </div>
-        </div>
-      </div>
-      <div class="section section-examples" data-background-color="black">
-        <div class="space-50"></div>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a href="examples/landing-page.html" target="_blank">
-                <img src="assets/img/landing.jpg" alt="Image" class="img-raised">
-              </a>
-              <a href="examples/landing-page.html" class="btn btn-simple btn-primary btn-round">View Landing Page</a>
-            </div>
-            <div class="col">
-              <a href="examples/profile-page.html" target="_blank">
-                <img src="assets/img/profile.jpg" alt="Image" class="img-raised">
-              </a>
-              <a href="examples/profile-page.html" class="btn btn-simple btn-primary btn-round">View Profile Page</a>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="section section-download" id="#download-section" data-background-color="black">
         <div class="container">
           <div class="row justify-content-md-center">
@@ -295,10 +175,10 @@
               <h5 class="description">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim or Invision where you can find the kit in HTML or Sketch/PSD format. Start a new project or give an old Bootstrap project a new look!</h5>
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a href="https://www.creative-tim.com/product/now-ui-kit" class="btn btn-primary btn-lg btn-round" role="button">
+              <a href="#" class="btn btn-primary btn-lg btn-round" role="button">
                 Download HTML
               </a>
-              <a href="https://www.invisionapp.com/now" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
+              <a href="#" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
                 Download PSD/Sketch
               </a>
             </div>
