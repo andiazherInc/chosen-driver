@@ -291,7 +291,7 @@
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
           </script>, Designed by
           <a href="#https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-          <a href="#https://www.andiazher.com/chosen-driver/v1/web/">Andiazher</a>.
+          <a href="#https://www.andiazher.com/chosen-driver/v1/web/">andiazher</a>.
         </div>
       </div>
     </footer>
