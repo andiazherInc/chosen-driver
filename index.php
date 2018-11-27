@@ -22,7 +22,7 @@
 
 <body class="index-page sidebar-collapse">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-success fixed-top navbar-transparent " color-on-scroll="400">
+  <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="#index" rel="tooltip" title="Profesionales en servicios especiales" data-placement="bottom">
@@ -42,9 +42,6 @@
               <p>Components</p>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item" href="#">
-                <i class="now-ui-icons business_chart-pie-36"></i> All components
-              </a>
               <a class="dropdown-item" target="_blank" href="https://demos.creative-tim.com/now-ui-kit/docs/1.0/getting-started/introduction.html">
                 <i class="now-ui-icons design_bullet-list-67"></i> Documentation
               </a>
