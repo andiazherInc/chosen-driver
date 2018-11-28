@@ -36,20 +36,9 @@
       </div>
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown">
-              <i class="now-ui-icons design_app"></i>
-              <p>Components</p>
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink1">
-              <a class="dropdown-item" target="_blank" href="https://demos.creative-tim.com/now-ui-kit/docs/1.0/getting-started/introduction.html">
-                <i class="now-ui-icons design_bullet-list-67"></i> Documentation
-              </a>
-            </div>
-          </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-neutral" href="javascript:void(0)" onclick="scrollToDownload()">
-              <i class="now-ui-icons arrows-1_share-66"></i>
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+              <i class="now-ui-icons shopping_cart-simple"></i>
               <p>Adquirir mi servicio</p>
             </a>
           </li>
@@ -93,7 +82,7 @@
       </div>
     </div>
     <div class="main">
-      <div class="section section-download" id="#download-section" data-background-color="black">
+      <div class="section section-download" id="#download-section" >
         <div class="container">
           <div class="card" style="width: 20rem;">
             <div class="card-body">
@@ -142,7 +131,7 @@
         </div>
       </div>
 
-      <div class="section" id="carousel">
+      <div class="section" id="carousel" data-background-color="black">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12">
@@ -188,7 +177,7 @@
         <div class="container text-center">
           <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-8">
-              <h2 class="title">Completed with examples</h2>
+              <h2 class="title">Profesionales en lo que hacemos</h2>
               <h5 class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 ui kit.</h5>
             </div>
           </div>
@@ -263,8 +252,7 @@
           &copy;
           <script>
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, Designed by
-          <a href="#https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+          </script>, Designed and coded by
           <a href="#https://www.andiazher.com/chosen-driver/v1/web/">andiazher</a>.
         </div>
       </div>
