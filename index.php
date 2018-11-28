@@ -94,7 +94,7 @@
 
           <div class="card text-center" style="width: 33rem;">
             <div class="card-body">
-              <h4 class="card-title">Special title treatment</h4>
+              <h4 class="card-title">Servicio dentro de Bogotá</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -102,7 +102,7 @@
 
           <div class="card text-right" style="width: 33rem;">
             <div class="card-body">
-              <h4 class="card-title">Special title treatment</h4>
+              <h4 class="card-title">Servicio desde de Bogotá</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
