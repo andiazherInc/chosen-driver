@@ -35,7 +35,7 @@
   <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="#index" rel="tooltip" title="Profesionales en servicios especiales"
+        <a class="navbar-brand" href="" rel="tooltip" title="Profesionales en servicios especiales"
           data-placement="bottom">
           Mi Conductor Elegido
         </a>
@@ -81,18 +81,18 @@
   </nav>
   <!-- End Navbar -->
   <div class="wrapper">
-    <div class="page-header clear-filter" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/header.jpg');">
+    <div class="page-header clear-filter" filter-color="orange">
+      <div class="page-header-image" data-parallax="true" style="background-image:url('./assets/img/headerBogota.jpg');">
       </div>
       <div class="container">
         <div class="content-center brand">
           <img class="n-logo" src="./assets/img/now-logo.png" alt="">
-          <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+          <h1 class="h1-seo">Buscas un conductor?</h1>
+          <h3>Nosotros te podemos ayudar con lo que estas buscando.</h3>
         </div>
         <h6 class="category category-absolute">Diseñado por
           <a href="">
-            <img src="./assets/img/invision-white-slim.png" class="invision-logo" />
+            andiazher
           </a>
       </div>
     </div>
