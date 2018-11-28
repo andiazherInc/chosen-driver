@@ -96,7 +96,7 @@
           </a>
         </h6>
         <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
-          <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!" target="_blank">
+          <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C+para+solicitar+un+servicio+de+condutor+elegido." target="_blank">
             <i class="fab fa-whatsapp"> </i>
             Contacteme
           </a>
