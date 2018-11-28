@@ -95,21 +95,29 @@
     <div class="main">
       <div class="section section-download" id="#download-section" data-background-color="black">
         <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="text-center col-md-12 col-lg-8">
-              <h3 class="title">Do you love this Bootstrap 4 UI Kit?</h3>
-              <h5 class="description">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim or Invision where you can find the kit in HTML or Sketch/PSD format. Start a new project or give an old Bootstrap project a new look!</h5>
-            </div>
-            <div class="text-center col-md-12 col-lg-8">
-              <a href="#" class="btn btn-primary btn-lg btn-round" role="button">
-                Download HTML
-              </a>
-              <a href="#" target="_blank" class="btn btn-primary btn-lg btn-simple btn-round" role="button">
-                Download PSD/Sketch
-              </a>
+          <div class="card" style="width: 20rem;">
+            <div class="card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
 
+          <div class="card text-center" style="width: 20rem;">
+            <div class="card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card text-right" style="width: 20rem;">
+            <div class="card-body">
+              <h4 class="card-title">Special title treatment</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
           <br>
           <br>
           <div class="row justify-content-md-center sharing-area text-center">
