@@ -84,7 +84,7 @@
     <div class="main">
       <div class="section section-download" id="#download-section" >
         <div class="container">
-          <div class="card" style="width: 20rem;">
+          <div class="card">
             <div class="card-body">
               <h4 class="card-title">Special title treatment</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <div class="card text-center" style="width: 20rem;">
+          <div class="card text-center">
             <div class="card-body">
               <h4 class="card-title">Special title treatment</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -100,15 +100,14 @@
             </div>
           </div>
 
-          <div class="card text-right" style="width: 20rem;">
+          <div class="card text-right">
             <div class="card-body">
               <h4 class="card-title">Special title treatment</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <br>
-          <br>
+
           <div class="row justify-content-md-center sharing-area text-center">
             <div class="text-center col-md-12 col-lg-8">
               <h3>Gracias por preferirnos!</h3>
