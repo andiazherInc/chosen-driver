@@ -84,30 +84,30 @@
     <div class="main">
       <div class="section section-download" id="#download-section" >
         <div class="container">
-          <div class="card">
+          <div class="card" style="width: 33rem;">
             <div class="card-body">
-              <h4 class="card-title">Special title treatment</h4>
+              <h4 class="card-title">En efectivo</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Pedir</a>
+            </div>
+          </div>
+
+          <div class="card text-center" style="width: 33rem;">
+            <div class="card-body">
+              <h4 class="card-title">Servicio dentro de Bogotá</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
 
-          <div class="card text-center">
+          <div class="card text-right" style="width: 33rem;">
             <div class="card-body">
-              <h4 class="card-title">Special title treatment</h4>
+              <h4 class="card-title">Servicio desde de Bogotá</h4>
               <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-
-          <div class="card text-right">
-            <div class="card-body">
-              <h4 class="card-title">Special title treatment</h4>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
+          
           <div class="row justify-content-md-center sharing-area text-center">
             <div class="text-center col-md-12 col-lg-8">
               <h3>Gracias por preferirnos!</h3>
@@ -177,7 +177,7 @@
           <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-8">
               <h2 class="title">Profesionales en lo que hacemos</h2>
-              <h5 class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 ui kit.</h5>
+              <h5 class="description">Primera empresa en Bogotá que permite pagos online para servicios procesionales en conductor elegido</h5>
             </div>
           </div>
         </div>
