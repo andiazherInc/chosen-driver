@@ -106,18 +106,33 @@
             </div>
 
             <div class="col-md-6 col-lg-3">
-              <div class="card card-pricing" data-background-color="orange">
+              <div class="card card-pricing" data-background-color="green">
                 <div class="card-body">
-                  <h1 class="card-title">$40</h1>
+                  <h1 class="card-title">$60.000</h1>
                   <ul>
                     <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited MB</li>
                     <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited emails</li>
                     <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited Databases</li>
                     <li><i class="now-ui-icons ui-1_check text-primary"></i> Full Support</li>
                   </ul>
-                  <a href="#pablo" class="btn btn-neutral btn-default disabled btn-round">
-                    Current Plan
-                  </a>
+                  <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                    <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+                    <input name="buttonId" type="hidden" value="SRtlxZ667poyFfEtnuKdazqqzei4J9ad50zyRu/moY+59kO2zZ1wkQ=="/>
+                    <input name="merchantId" type="hidden" value="701126"/>
+                    <input name="accountId" type="hidden" value="704171"/>
+                    <input name="description" type="hidden" value="CONDUCTOR ELEGIDO SOLO BOGOTA"/>
+                    <input name="referenceCode" type="hidden" value="0100001"/>
+                    <input name="amount" type="hidden" value="60000.00"/>
+                    <input name="tax" type="hidden" value="0.00"/>
+                    <input name="taxReturnBase" type="hidden" value="0.00"/>
+                    <input name="currency" type="hidden" value="COP"/>
+                    <input name="lng" type="hidden" value="es"/>
+                    <input name="displayBuyerComments" type="hidden" value="true"/>
+                    <input name="buyerCommentsLabel" type="hidden" value="es:INGRESAR FECHA Y HORA DEL SERVICIO"/>
+                    <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+                    <input name="buttonType" value="SIMPLE" type="hidden"/>
+                    <input name="signature" value="7b64073f2d5e2220d873f5fb58f622a9599b1b6535aed496453612d5ec2b37f6" type="hidden"/>
+                  </form>
                 </div>
               </div>
             </div>
