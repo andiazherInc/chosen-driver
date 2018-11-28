@@ -94,6 +94,13 @@
           <a href="">
             andiazher
           </a>
+        </h6>
+        <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
+          <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573214604859&text=Hola!" target="_blank">
+            <i class="fab fa-whatsapp"> </i>
+            Contacteme
+          </a>
+        </div>
       </div>
     </div>
     <div class="main">
