@@ -25,10 +25,12 @@
   <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="#index" rel="tooltip" title="Profesionales en servicios especiales" data-placement="bottom">
+        <a class="navbar-brand" href="#index" rel="tooltip" title="Profesionales en servicios especiales"
+          data-placement="bottom">
           Mi Conductor Elegido
         </a>
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar top-bar"></span>
           <span class="navbar-toggler-bar middle-bar"></span>
           <span class="navbar-toggler-bar bottom-bar"></span>
@@ -43,19 +45,22 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/"
+              target="_blank">
               <i class="fab fa-twitter"></i>
               <p class="d-lg-none d-xl-none">Twitter</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/"
+              target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none d-xl-none">Facebook</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/" target="_blank">
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/"
+              target="_blank">
               <i class="fab fa-instagram"></i>
               <p class="d-lg-none d-xl-none">Instagram</p>
             </a>
@@ -75,54 +80,103 @@
           <h1 class="h1-seo">Now UI Kit.</h1>
           <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
         </div>
-        <h6 class="category category-absolute">Diseñado por 
+        <h6 class="category category-absolute">Diseñado por
           <a href="">
             <img src="./assets/img/invision-white-slim.png" class="invision-logo" />
           </a>
       </div>
     </div>
     <div class="main">
-      <div class="section section-download" id="#download-section" >
+      <div class="section section-download" id="#download-section">
         <div class="container">
-          <div class="card" style="width: 33rem;">
-            <div class="card-body">
-              <h4 class="card-title">En efectivo</h4>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Pedir</a>
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card card-pricing">
+                <div class="card-body">
+                  <h6 class="category">Alpha Pack</h6>
+                  <div class="icon icon-primary">
+                    <i class="now-ui-icons objects_diamond"></i>
+                  </div>
+                  <h3 class="card-title">$67</h3>
+                  <p class="card-description">
+                    This is good if your company size is between 100 and 299 employees.</p>
+                  <a href="#pablo" class="btn btn-primary btn-round">Add to Cart</a>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="card text-center" style="width: 33rem;">
-            <div class="card-body">
-              <h4 class="card-title">Servicio dentro de Bogotá</h4>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-md-6 col-lg-3">
+              <div class="card card-pricing" data-background-color="orange">
+                <div class="card-body">
+                  <h1 class="card-title">$40</h1>
+                  <ul>
+                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited MB</li>
+                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited emails</li>
+                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited Databases</li>
+                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Full Support</li>
+                  </ul>
+                  <a href="#pablo" class="btn btn-neutral btn-default disabled btn-round">
+                    Current Plan
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="card text-right" style="width: 33rem;">
-            <div class="card-body">
-              <h4 class="card-title">Servicio desde de Bogotá</h4>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col-md-6 col-lg-3">
+              <div class="card card-pricing card-background" style="background-image: url('assets/img/project12.jpg')">
+                <div class="card-body">
+                  <h6 class="category">Professional</h6>
+                  <div class="icon icon-primary">
+                    <i class="now-ui-icons objects_spaceship"></i>
+                  </div>
+                  <h2 class="card-title">$67</h2>
+                  <p class="card-description">
+                    This is good if you are a freelancer of photographer.</p>
+                  <a href="#pablo" class="btn btn-primary btn-round">
+                    Sign Up
+                  </a>
+                </div>
+              </div>
             </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="card card-pricing">
+                <div class="card-body">
+                  <h6 class="category">Starter</h6>
+                  <h1 class="card-title"><small>$</small>10</h1>
+                  <ul>
+                    <li><i class="now-ui-icons ui-1_check text-success"></i> 1000 MB</li>
+                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> 3 email</li>
+                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> 5 Databases</li>
+                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> No Support</li>
+                  </ul>
+                  <a href="#pablo" class="btn btn-primary btn-round">
+                    Register
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
-          
           <div class="row justify-content-md-center sharing-area text-center">
             <div class="text-center col-md-12 col-lg-8">
               <h3>Gracias por preferirnos!</h3>
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a target="_blank" href="https://www.twitter.com/creativetim" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg" rel="tooltip" title="Follow us">
+              <a target="_blank" href="https://www.twitter.com/creativetim" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
+                rel="tooltip" title="Follow us">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" rel="tooltip" title="Like us">
+              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
+                rel="tooltip" title="Like us">
                 <i class="fab fa-facebook-square"></i>
               </a>
-              <a target="_blank" href="https://www.linkedin.com/company-beta/9430489/" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round" rel="tooltip" title="Follow us">
+              <a target="_blank" href="https://www.linkedin.com/company-beta/9430489/" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
+                rel="tooltip" title="Follow us">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a target="_blank" href="https://github.com/creativetimofficial/now-ui-kit" class="btn btn-neutral btn-icon btn-github btn-round btn-lg" rel="tooltip" title="Star on Github">
+              <a target="_blank" href="https://github.com/creativetimofficial/now-ui-kit" class="btn btn-neutral btn-icon btn-github btn-round btn-lg"
+                rel="tooltip" title="Star on Github">
                 <i class="fab fa-github"></i>
               </a>
             </div>
@@ -177,7 +231,8 @@
           <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-8">
               <h2 class="title">Profesionales en lo que hacemos</h2>
-              <h5 class="description">Primera empresa en Bogotá que permite pagos online para servicios procesionales en conductor elegido</h5>
+              <h5 class="description">Primera empresa en Bogotá que permite pagos online para servicios procesionales
+                en conductor elegido</h5>
             </div>
           </div>
         </div>
@@ -207,7 +262,8 @@
     </div>
     <!--  End Modal -->
     <!-- Mini Modal -->
-    <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header justify-content-center">
@@ -272,7 +328,7 @@
   <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       // the body of this function is in assets/js/now-ui-kit.js
       nowuiKit.initSliders();
     });
