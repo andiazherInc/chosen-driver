@@ -114,7 +114,7 @@
                   <p class="card-description">
                     Para pagos en efectivo despues del servicio
                   </p>
-                  <a href="#pablo" class="btn btn-primary btn-round disabled">Add to Cart</a>
+                  <a href="#pablo" class="btn btn-primary btn-round disabled">Realizar pedido</a>
                 </div>
               </div>
             </div>
@@ -126,8 +126,8 @@
                   <h2 class="card-title text-right">$60.000</h2>
                   <p class="card-description">
                     Servicio dentro de la Ciudad de Bogotá
-                    <footer class="blockquote-footer text-white">El servicio es solo para dentro de la ciudad de Bogotá</footer>
                   </p>
+                  <footer class="blockquote-footer text-white">El servicio es solo para dentro de la ciudad de Bogotá</footer>
 
                   <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
                     <input type="submit" alt="" class="btn btn-primary btn-round" onClick="this.form.urlOrigen.value = window.location.href;" value="Pagar Ahora"/>
@@ -152,24 +152,42 @@
             </div>
 
             <div class="col-md-6 col-lg-3">
-              <div class="card card-pricing card-background" style="background-image: url('assets/img/project12.jpg')">
+              <div class="card card-pricing"  data-background-color="orange">
                 <div class="card-body">
-                  <h6 class="category">Professional</h6>
-                  <h2 class="card-title">$90.000</h2>
+                  <h6 class="category">Servicio Basico</h6>
+                  <h2 class="card-title text-right">$90.000</h2>
                   <p class="card-description">
-                    Servicios de municipios alrededor de Bogotá</p>
-                  <a href="#pablo" class="btn btn-primary btn-round disabled">
-                    Pagar Ahora
-                  </a>
+                    Servicios de municipios alrededor de Bogotá
+                  </p>
+                  <footer class="blockquote-footer text-white">El servicio es solo para municipios alredor y como destino a Bogotá</footer>
+                  <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                     <input type="submit" alt="" class="btn btn-info btn-round" onClick="this.form.urlOrigen.value = window.location.href;" value="Pagar Ahora"/>
+                    <input name="buttonId" type="hidden" value="eFnXHR1689IAcuRnNoy0OGJTla6mlELHTlmOhe7Cfk9CET2KAB43xQ=="/>
+                    <input name="merchantId" type="hidden" value="701126"/>
+                    <input name="accountId" type="hidden" value="704171"/>
+                    <input name="description" type="hidden" value="CONDUCTOR ELEGIDO ALREDEDOR BOG"/>
+                    <input name="referenceCode" type="hidden" value="0100002"/>
+                    <input name="amount" type="hidden" value="90000.00"/>
+                    <input name="tax" type="hidden" value="0.00"/>
+                    <input name="taxReturnBase" type="hidden" value="0.00"/>
+                    <input name="shipmentValue" value="0.00" type="hidden"/>
+                    <input name="currency" type="hidden" value="COP"/>
+                    <input name="lng" type="hidden" value="es"/>
+                    <input name="displayBuyerComments" type="hidden" value="true"/>
+                    <input name="buyerCommentsLabel" type="hidden" value="es:POR FAVOR CONFIRMAR FECHA Y HORA DEL SERVICIO, LO MISMO QUE EL LUGAR"/>
+                    <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+                    <input name="buttonType" value="SIMPLE" type="hidden"/>
+                    <input name="signature" value="5f291f689ed6fcb9dadd86cc9a51f70ec810cbe3c89e1cdc000caee3145ec0a9" type="hidden"/>
+                  </form>
                 </div>
               </div>
             </div>
 
             <div class="col-md-6 col-lg-3">
-              <div class="card card-pricing">
+              <div class="card card-pricing" data-background-color="green">
                 <div class="card-body">
-                  <h6 class="category">Starter</h6>
-                  <h1 class="card-title">$150.000</h1>
+                  <h6 class="category">Suscripción Mensual</h6>
+                  <h2 class="card-title text-right">$450.000</h2>
                   <a href="#pablo" class="btn btn-primary btn-round disabled">
                     Pagar Ahora
                   </a>
