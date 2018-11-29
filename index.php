@@ -107,33 +107,30 @@
       <div class="section section-download" id="#download-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3" >
               <div class="card card-pricing">
                 <div class="card-body">
-                  <h6 class="category">Alpha Pack</h6>
-                  <div class="icon icon-primary">
-                    <i class="now-ui-icons objects_diamond"></i>
-                  </div>
-                  <h3 class="card-title">$67</h3>
+                  <h6 class="category">Pago en Efectivo</h6>
                   <p class="card-description">
-                    This is good if your company size is between 100 and 299 employees.</p>
-                  <a href="#pablo" class="btn btn-primary btn-round">Add to Cart</a>
+                    Para pagos en efectivo despues del servicio
+                  </p>
+                  <a href="#pablo" class="btn btn-primary btn-round disabled">Add to Cart</a>
                 </div>
               </div>
             </div>
 
             <div class="col-md-6 col-lg-3">
-              <div class="card card-pricing" data-background-color="green">
+              <div class="card card-pricing" data-background-color="blue">
                 <div class="card-body">
-                  <h1 class="card-title">$60.000</h1>
-                  <ul>
-                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited MB</li>
-                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited emails</li>
-                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Unlimited Databases</li>
-                    <li><i class="now-ui-icons ui-1_check text-primary"></i> Full Support</li>
-                  </ul>
+                  <h6 class="category">Servicio Basico</h6>
+                  <h2 class="card-title text-right">$60.000</h2>
+                  <p class="card-description">
+                    Servicio dentro de la Ciudad de Bogotá
+                    <footer class="blockquote-footer text-white">El servicio es solo para dentro de la ciudad de Bogotá</footer>
+                  </p>
+
                   <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
-                    <input type="image" border="0" alt="" src="http://www.payulatam.com/img-secure-2015/boton_pagar_pequeno.png" onClick="this.form.urlOrigen.value = window.location.href;"/>
+                    <input type="submit" alt="" class="btn btn-primary btn-round" onClick="this.form.urlOrigen.value = window.location.href;" value="Pagar Ahora"/>
                     <input name="buttonId" type="hidden" value="SRtlxZ667poyFfEtnuKdazqqzei4J9ad50zyRu/moY+59kO2zZ1wkQ=="/>
                     <input name="merchantId" type="hidden" value="701126"/>
                     <input name="accountId" type="hidden" value="704171"/>
@@ -158,14 +155,11 @@
               <div class="card card-pricing card-background" style="background-image: url('assets/img/project12.jpg')">
                 <div class="card-body">
                   <h6 class="category">Professional</h6>
-                  <div class="icon icon-primary">
-                    <i class="now-ui-icons objects_spaceship"></i>
-                  </div>
-                  <h2 class="card-title">$67</h2>
+                  <h2 class="card-title">$90.000</h2>
                   <p class="card-description">
-                    This is good if you are a freelancer of photographer.</p>
-                  <a href="#pablo" class="btn btn-primary btn-round">
-                    Sign Up
+                    Servicios de municipios alrededor de Bogotá</p>
+                  <a href="#pablo" class="btn btn-primary btn-round disabled">
+                    Pagar Ahora
                   </a>
                 </div>
               </div>
@@ -175,15 +169,9 @@
               <div class="card card-pricing">
                 <div class="card-body">
                   <h6 class="category">Starter</h6>
-                  <h1 class="card-title"><small>$</small>10</h1>
-                  <ul>
-                    <li><i class="now-ui-icons ui-1_check text-success"></i> 1000 MB</li>
-                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> 3 email</li>
-                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> 5 Databases</li>
-                    <li><i class="now-ui-icons ui-1_simple-remove text-danger"></i> No Support</li>
-                  </ul>
-                  <a href="#pablo" class="btn btn-primary btn-round">
-                    Register
+                  <h1 class="card-title">$150.000</h1>
+                  <a href="#pablo" class="btn btn-primary btn-round disabled">
+                    Pagar Ahora
                   </a>
                 </div>
               </div>
@@ -195,21 +183,17 @@
               <h3>Gracias por preferirnos!</h3>
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a target="_blank" href="https://www.twitter.com/creativetim" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
+              <a target="_blank" href="https://www.twitter.com/" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
                 rel="tooltip" title="Follow us">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
+              <a target="_blank" href="https://www.facebook.com" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
                 rel="tooltip" title="Like us">
                 <i class="fab fa-facebook-square"></i>
               </a>
-              <a target="_blank" href="https://www.linkedin.com/company-beta/9430489/" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
+              <a target="_blank" href="https://www.linkedin.com" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
                 rel="tooltip" title="Follow us">
                 <i class="fab fa-linkedin"></i>
-              </a>
-              <a target="_blank" href="https://github.com/creativetimofficial/now-ui-kit" class="btn btn-neutral btn-icon btn-github btn-round btn-lg"
-                rel="tooltip" title="Star on Github">
-                <i class="fab fa-github"></i>
               </a>
             </div>
           </div>
