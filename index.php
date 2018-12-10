@@ -97,15 +97,23 @@
               andiazher
             </a>
           </h6>
-          <a class="" onclick="scrollToDownload()">
+          <a class="btn btn-primary btn-round btn-link" onclick="scrollToDownload()">
             <i class="now-ui-icons arrows-1_minimal-down"> </i>
           </a>
         </div>
         <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
-          <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C%20para%20solicitar%20un%20servicio%20de%20condutor%20elegido." target="_blank">
-            <i class="fab fa-whatsapp"> </i>
-            Contacteme
-          </a>
+          <div>
+            <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C%20para%20solicitar%20un%20servicio%20de%20condutor%20elegido." target="_blank">
+              <i class="fab fa-whatsapp"> </i>
+              Contactenos
+            </a>
+          </div>
+          <div class="d-block d-sm-none">
+            <a class="btn btn-info" href="tel:3228902117" target="_blank">
+              <i class="fas fa-phone"> </i>
+              &nbsp;Llamanos&nbsp;&nbsp;&nbsp;
+            </a>
+          </div>
         </div>
       </div>
     </div>
