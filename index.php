@@ -121,7 +121,7 @@
       <div class="section section-download" id="#download-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg-3" >
+            <div class="col-md-6 col-lg-3 d-none invisible" >
               <div class="card card-pricing">
                 <div class="card-body">
                   <h6 class="category">Pago en Efectivo</h6>
@@ -197,7 +197,7 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-3 d-none invisible">
               <div class="card card-pricing" data-background-color="green">
                 <div class="card-body">
                   <h6 class="category">Suscripción Mensual</h6>
@@ -355,7 +355,7 @@
           &copy;
           <script>
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, Designed and coded by
+          </script> | Designed and coded by
           <a href="#https://www.andiazher.com/chosen-driver/v1/web/">andiazher</a>.
         </div>
       </div>
