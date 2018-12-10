@@ -86,15 +86,21 @@
       </div>
       <div class="container">
         <div class="content-center brand">
-          <img class="n-logo" src="./assets/img/now-logo.png" alt="">
-          <h1 class="h1-seo">Buscas un conductor?</h1>
-          <h3>Nosotros te podemos ayudar con lo que estas buscando.</h3>
+          <img class="n-logo" src="./assets/img/Picture2.png" alt="" onclick="scrollToDownload()">
+          <h1 class="h1-seo" onclick="scrollToDownload()">Buscas un conductor?</h1>
+          <h3 onclick="scrollToDownload()">Nosotros te podemos ayudar con lo que estas buscando.</h3>
         </div>
-        <h6 class="category category-absolute">Diseñado por
-          <a href="">
-            andiazher
+        <div class="category category-absolute">
+          <h6 class="text-right">
+            A service 
+            <a href="" class="">
+              andiazher
+            </a>
+          </h6>
+          <a class="" onclick="scrollToDownload()">
+            <i class="now-ui-icons arrows-1_minimal-down"> </i>
           </a>
-        </h6>
+        </div>
         <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
           <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C%20para%20solicitar%20un%20servicio%20de%20condutor%20elegido." target="_blank">
             <i class="fab fa-whatsapp"> </i>
