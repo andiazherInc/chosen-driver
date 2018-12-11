@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToBuyer()">
               <i class="now-ui-icons shopping_cart-simple"></i>
               <p>Adquirir mi servicio</p>
             </a>
@@ -86,9 +86,9 @@
       </div>
       <div class="container">
         <div class="content-center brand">
-          <img class="n-logo" src="./assets/img/Picture2.png" alt="" onclick="scrollToDownload()">
-          <h1 class="h1-seo" onclick="scrollToDownload()">Buscas un conductor?</h1>
-          <h3 onclick="scrollToDownload()">Nosotros te podemos ayudar con lo que estas buscando.</h3>
+          <img class="n-logo" src="./assets/img/car.png" alt="" onclick="scrollToBuyer()">
+          <h1 class="h1-seo" onclick="scrollToBuyer()">Buscas un conductor?</h1>
+          <h3 onclick="scrollToBuyer()">Nosotros te podemos ayudar con lo que estas buscando.</h3>
         </div>
         <div class="category category-absolute">
           <h6 class="text-right">
@@ -97,7 +97,7 @@
               andiazher
             </a>
           </h6>
-          <a class="btn btn-primary btn-round btn-link" onclick="scrollToDownload()">
+          <a class="btn btn-primary btn-round btn-link" onclick="scrollToBuyer()">
             <i class="now-ui-icons arrows-1_minimal-down"> </i>
           </a>
         </div>
@@ -381,7 +381,7 @@
       nowuiKit.initSliders();
     });
 
-    function scrollToDownload() {
+    function scrollToBuyer() {
 
       if ($('.section-download').length != 0) {
         $("html, body").animate({
