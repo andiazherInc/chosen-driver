@@ -90,7 +90,7 @@
         </div>
         <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
           <div>
-            <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C%20para%20solicitar%20un%20servicio%20de%20condutor%20elegido." target="_blank">
+            <a class="btn btn-success" href="https://api.whatsapp.com/send?phone=573228902117&text=Hola!%2C%20Mi%20servicio%20ha%20sido%20confirmado." target="_blank">
               <i class="fab fa-whatsapp"> </i>
               Contactenos
             </a>
