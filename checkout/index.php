@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image=".././assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" >
+            <a class="nav-link" href="../index.php#download-section" >
               <i class="now-ui-icons shopping_cart-simple"></i>
               <p>Adquirir mi servicio</p>
             </a>
