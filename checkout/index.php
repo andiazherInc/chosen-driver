@@ -86,18 +86,7 @@
         <div class="content-center brand">
           <img class="n-logo" src=".././assets/img/car.png" alt="" >
           <h1 class="h1-seo">El servicio ha sido confirmado!</h1>
-          <h3>Puedes comunicarte con nosotros para mas información.</h3>
-        </div>
-        <div class="category category-absolute">
-          <h6 class="text-right">
-            A service 
-            <a href="" class="">
-              andiazher
-            </a>
-          </h6>
-          <a class="btn btn-primary btn-round btn-link" >
-            <i class="now-ui-icons arrows-1_minimal-down"> </i>
-          </a>
+          <h5>Puedes comunicarte con nosotros para mas información.</h5>
         </div>
         <div  class="float-right" style="position:fixed;right:0%;z-index:9999">
           <div>
