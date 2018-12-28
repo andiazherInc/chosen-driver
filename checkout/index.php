@@ -81,7 +81,7 @@
   </nav>
   <!-- End Navbar -->
   <div class="wrapper">
-    <div class="page-header clear-filter">
+    <div class="page-header clear-filter" data-background-color="black">
       <div class="container">
         <div class="content-center brand">
           <img class="n-logo" src=".././assets/img/car.png" alt="" onclick="scrollToBuyer()">
