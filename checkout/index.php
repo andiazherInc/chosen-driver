@@ -35,7 +35,7 @@
   <nav class="navbar navbar-expand-lg bg-info fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="" rel="tooltip" title="Profesionales en servicios especiales"
+        <a class="navbar-brand" href="../" rel="tooltip" title="Profesionales en servicios especiales"
           data-placement="bottom">
           Mi Conductor Elegido
         </a>
@@ -49,7 +49,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image=".././assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="../index.php#download-section" onclick="scrollToBuyer()">
+            <a class="nav-link" href="../#download-section" onclick="scrollToBuyer()">
               <i class="now-ui-icons shopping_cart-simple"></i>
               <p>Adquirir mi servicio</p>
             </a>
