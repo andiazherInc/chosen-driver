@@ -55,21 +55,21 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/"
+            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/#conductor-elegido-bog"
               target="_blank">
               <i class="fab fa-twitter"></i>
               <p class="d-lg-none d-xl-none">Twitter</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/"
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/#conductor-elegido-bog"
               target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none d-xl-none">Facebook</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/"
+            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/#conductor-elegido-bog"
               target="_blank">
               <i class="fab fa-instagram"></i>
               <p class="d-lg-none d-xl-none">Instagram</p>
@@ -215,17 +215,17 @@
               <h3>Gracias por preferirnos!</h3>
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a target="_blank" href="https://www.twitter.com/" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
+              <a target="_blank" href="https://www.twitter.com/#conductor-elegido-bog" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg"
                 rel="tooltip" title="Follow us">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
+              <a target="_blank" href="https://www.facebook.com/#conductor-elegido-bog" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg"
                 rel="tooltip" title="Like us">
                 <i class="fab fa-facebook-square"></i>
               </a>
-              <a target="_blank" href="https://www.linkedin.com" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round"
+              <a target="_blank" href="https://www.instagram.com/#conductor-elegido-bog" class="btn btn-neutral btn-icon btn-instagram btn-lg btn-round"
                 rel="tooltip" title="Follow us">
-                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-instagram"></i>
               </a>
             </div>
           </div>
