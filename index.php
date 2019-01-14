@@ -236,6 +236,7 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12">
+              <!--
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -269,6 +270,7 @@
                   <i class="now-ui-icons arrows-1_minimal-right"></i>
                 </a>
               </div>
+              -->
             </div>
           </div>
         </div>
