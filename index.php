@@ -120,6 +120,11 @@
     <div class="main">
       <div class="section section-download" id="#download-section">
         <div class="container">
+          <div class="row justify-content-md-center">
+            <h2 >Nuestros servicios</h2>
+            <p class="description">Seleccione el tipo de servicio que requieres y luego paga 
+              online con el metodo de pago de tu preferencia de manera segura.</p>
+          </div>
           <div class="row">
             <div class="col-md-6 col-lg-3 d-none invisible" >
               <div class="card card-pricing">
@@ -137,7 +142,7 @@
               <div class="card card-pricing" data-background-color="blue">
                 <div class="card-body">
                   <h6 class="category">Servicio Basico</h6>
-                  <h2 class="card-title text-right">$60.000</h2>
+                  <h2 class="card-title text-right">$ 60.000</h2>
                   <p class="card-description">
                     Servicio dentro de la Ciudad de Bogotá
                   </p>
@@ -157,13 +162,14 @@
                     <input name="lng" type="hidden" value="es"/>
                     <input name="approvedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/?ref=0100001"/>
                     <input name="declinedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/error/"/>
-                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pendig/"/>
+                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pending/"/>
                     <input name="displayBuyerComments" type="hidden" value="true"/>
                     <input name="buyerCommentsLabel" type="hidden" value="es:INGRESAR FECHA Y HORA DEL SERVICIO"/>
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
                     <input name="buttonType" value="SIMPLE" type="hidden"/>
                     <input name="signature" value="7b64073f2d5e2220d873f5fb58f622a9599b1b6535aed496453612d5ec2b37f6" type="hidden"/>
                   </form>
+                  <br>
                 </div>
               </div>
             </div>
@@ -172,7 +178,7 @@
               <div class="card card-pricing"  data-background-color="orange">
                 <div class="card-body">
                   <h6 class="category">Servicio Basico</h6>
-                  <h2 class="card-title text-right">$90.000</h2>
+                  <h2 class="card-title text-right">$ 90.000</h2>
                   <p class="card-description">
                     Servicios de municipios alrededor de Bogotá
                   </p>
@@ -192,7 +198,7 @@
                     <input name="lng" type="hidden" value="es"/>
                     <input name="approvedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/?ref=0100002"/>
                     <input name="declinedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/error/"/>
-                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pendig/"/>
+                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pending/"/>
                     <input name="displayBuyerComments" type="hidden" value="true"/>
                     <input name="buyerCommentsLabel" type="hidden" value="es:POR FAVOR CONFIRMAR FECHA Y HORA DEL SERVICIO, LO MISMO QUE EL LUGAR"/>
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
@@ -203,14 +209,36 @@
               </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 d-none invisible">
+            <div class="col-md-6 col-lg-3">
               <div class="card card-pricing" data-background-color="green">
                 <div class="card-body">
                   <h6 class="category">Suscripción Mensual</h6>
                   <h2 class="card-title text-right">$450.000</h2>
-                  <a href="#pablo" class="btn btn-primary btn-round disabled">
-                    Pagar Ahora
-                  </a>
+                  <p class="card-description">
+                    Servicio por suscripción mensual
+                  </p>
+                  <footer class="blockquote-footer text-white">El servicio es solo para municipios alredor y como destino a Bogotá. </footer>
+                  <form method="post" action="https://gateway.payulatam.com/ppp-web-gateway/pb.zul" accept-charset="UTF-8">
+                    <input type="submit" alt="" class="btn btn-info btn-round" onClick="this.form.urlOrigen.value = window.location.href;" value="Pagar Ahora"/>
+                    <input name="buttonId" type="hidden" value="yOfqKr7A59zUc+tIArm6TH9OMepre+ccQauRr2UkiSD0XCJBbCOGCg=="/>
+                    <input name="merchantId" type="hidden" value="701126"/>
+                    <input name="accountId" type="hidden" value="704171"/>
+                    <input name="description" type="hidden" value="CONDUCTOR ELEGIDO ALREDEDOR BOG"/>
+                    <input name="referenceCode" type="hidden" value="0200001"/>
+                    <input name="amount" type="hidden" value="450000.00"/>
+                    <input name="tax" type="hidden" value="0.00"/>
+                    <input name="taxReturnBase" type="hidden" value="0.00"/>
+                    <input name="shipmentValue" value="0.00" type="hidden"/>
+                    <input name="currency" type="hidden" value="COP"/>
+                    <input name="lng" type="hidden" value="es"/>
+                    <input name="approvedResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/?ref=0200001"/>
+                    <input name="declinedResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/error/?ref=0200001"/>
+                    <input name="pendingResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/pending/?ref=0200001"/>
+                    <input name="displayBuyerComments" type="hidden" value="true"/>
+                    <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
+                    <input name="buttonType" value="SIMPLE" type="hidden"/>
+                    <input name="signature" value="7d9d095ff1ad639b1dfa10aedaf138997dba61b6f701dfa5b8f67b4f14d49165" type="hidden"/>
+                  </form>
                 </div>
               </div>
             </div>
