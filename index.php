@@ -155,6 +155,9 @@
                     <input name="taxReturnBase" type="hidden" value="0.00"/>
                     <input name="currency" type="hidden" value="COP"/>
                     <input name="lng" type="hidden" value="es"/>
+                    <input name="approvedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/?ref=0100001"/>
+                    <input name="declinedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/error/"/>
+                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pendig/"/>
                     <input name="displayBuyerComments" type="hidden" value="true"/>
                     <input name="buyerCommentsLabel" type="hidden" value="es:INGRESAR FECHA Y HORA DEL SERVICIO"/>
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
@@ -187,6 +190,9 @@
                     <input name="shipmentValue" value="0.00" type="hidden"/>
                     <input name="currency" type="hidden" value="COP"/>
                     <input name="lng" type="hidden" value="es"/>
+                    <input name="approvedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/?ref=0100002"/>
+                    <input name="declinedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/error/"/>
+                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pendig/"/>
                     <input name="displayBuyerComments" type="hidden" value="true"/>
                     <input name="buyerCommentsLabel" type="hidden" value="es:POR FAVOR CONFIRMAR FECHA Y HORA DEL SERVICIO, LO MISMO QUE EL LUGAR"/>
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
