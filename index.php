@@ -62,7 +62,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/#conductor-elegido-bog"
+            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/chosendriverco/"
               target="_blank">
               <i class="fab fa-facebook-square"></i>
               <p class="d-lg-none d-xl-none">Facebook</p>
@@ -231,9 +231,9 @@
                     <input name="shipmentValue" value="0.00" type="hidden"/>
                     <input name="currency" type="hidden" value="COP"/>
                     <input name="lng" type="hidden" value="es"/>
-                    <input name="approvedResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/?ref=0200001"/>
-                    <input name="declinedResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/error/?ref=0200001"/>
-                    <input name="pendingResponseUrl" type="hidden" value="http://localhost/chosen-driver/checkout/pending/?ref=0200001"/>
+                    <input name="approvedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/?ref=0200001"/>
+                    <input name="declinedResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/error/?ref=0200001"/>
+                    <input name="pendingResponseUrl" type="hidden" value="https://chosen-driver.herokuapp.com/checkout/pending/?ref=0200001"/>
                     <input name="displayBuyerComments" type="hidden" value="true"/>
                     <input name="sourceUrl" id="urlOrigen" value="" type="hidden"/>
                     <input name="buttonType" value="SIMPLE" type="hidden"/>
